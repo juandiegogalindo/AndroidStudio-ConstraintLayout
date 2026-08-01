@@ -1,6 +1,6 @@
 # Laboratorio ConstraintLayout - Android
 
-## 📋 Descripción
+## Descripción
 
 Aplicación Android que implementa dos formularios funcionales utilizando **ConstraintLayout** como sistema de diseño de interfaces. El proyecto consta de una pantalla principal de navegación (`MainActivity`) que da acceso a dos formularios independientes:
 
@@ -11,7 +11,7 @@ Ambos formularios se construyen exclusivamente con `ConstraintLayout`, aplicando
 
 ---
 
-## ✨ Características
+## Características
 
 - Navegación entre pantallas (Activities) mediante Intents.
 - Envío de correos usando un Intent implícito, delegando la acción a apps externas instaladas.
@@ -22,7 +22,7 @@ Ambos formularios se construyen exclusivamente con `ConstraintLayout`, aplicando
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Java 11
 - Android SDK (compileSdk 36, minSdk 23, targetSdk 36)
@@ -32,7 +32,7 @@ Ambos formularios se construyen exclusivamente con `ConstraintLayout`, aplicando
 
 ---
 
-## 📚 Conceptos nuevos
+## Conceptos nuevos
 
 Como es el primer proyecto Android que revisamos juntos, estos son los conceptos propios de este entorno que aparecen por primera vez en tus repos:
 
@@ -46,7 +46,7 @@ Como es el primer proyecto Android que revisamos juntos, estos son los conceptos
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 app/
@@ -69,7 +69,7 @@ app/
 
 ---
 
-## ⚙️ Instalación y ejecución
+## Instalación y ejecución
 
 1. Clonar el repositorio:
 
@@ -84,7 +84,7 @@ git clone https://github.com/juandiegogalindo/AndroidStudio-ConstraintLayout.git
 
 ---
 
-## 🖼️ Imágenes de referencia
+## Imágenes de referencia
 
 **Formulario de correo electrónico**
 
@@ -100,7 +100,7 @@ git clone https://github.com/juandiegogalindo/AndroidStudio-ConstraintLayout.git
 
 ---
 
-## ⚠️ Limitaciones conocidas
+## Limitaciones conocidas
 
 - Los `strings.xml` de los formularios mezclan texto en inglés (`hints`, `labels`) con lógica y mensajes en español dentro del código Java; no hay una estrategia de internacionalización unificada.
 - El historial de solicitudes de combustible (`FuelActivity`) se almacena solo en memoria (`ArrayList`); se pierde al cerrar la Activity o rotar la pantalla, ya que no hay persistencia (base de datos, `SharedPreferences`) ni manejo de `onSaveInstanceState`.
@@ -108,7 +108,7 @@ git clone https://github.com/juandiegogalindo/AndroidStudio-ConstraintLayout.git
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Juan Diego Galindo**
 Estudiante de Ingeniería de Sistemas
